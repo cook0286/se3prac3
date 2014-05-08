@@ -44,7 +44,7 @@ int test_tilt_left()
   e|=ttl_vector(4,0,1,1,NULL,4,2,0,0);
   e|=ttl_vector(2,0,1,1,NULL,2,2,0,0);
 
-  // Test codes cook0286 have added - Shifting
+  // Test codes cook0286 have added - Left Shifting
 
   e|=ttl_vector(0,1,0,0,"The first 1 value in middle shifts to left edge after shift",1,0,0,0);
   e|=ttl_vector(0,1,2,0,"distinct values in middle shifts to left edge after shift",1,2,0,0);
@@ -60,6 +60,10 @@ int test_tilt_left()
   e|=ttl_vector(2,4,0,1,"Value in middle shifts to left edge after shift",2,4,1,0);
   e|=ttl_vector(0,1,4,2,"Value in middle shifts to left edge after shift",1,4,2,0);
   
+
+  // Test codes cook0286 have added - combinations
+  e|=ttl_vector(4,1,1,0,NULL,4,2,0,0);
+  e|=ttl_vector(4,1,0,1,NULL,4,2,0,0);
 
 
   return e;

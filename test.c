@@ -51,6 +51,9 @@ int test_tilt_left()
   e|=ttl_vector(0,1,2,4,"Value in middle shifts to left edge after shift",1,2,4,0);
   e|=ttl_vector(0,4,2,1,"distinct values in middle shifts to left edge after shif t",4,2,1,0); 
   e|=ttl_vector(0,2,4,1,"Value in middle shifts to left edge after shift",2,4,1,0);
+  e|=ttl_vector(0,4,1,2,"distinct values in middles shifts to left edge after shift",4,1,2,0);
+
+
 
 
 
